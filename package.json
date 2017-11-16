@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-link-shortener",
+  "version": "1.0.0",
+  "description": "A simple nodejs URL shortener example using flatfile storage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manosteele91827/Nodejs-Link-Shortener.git"
+  },
+  "keywords": [
+    "express",
+    "linkshortener",
+    "nodejs",
+    "node-persist"
+  ],
+  "author": "Cameron Steele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manosteele91827/Nodejs-Link-Shortener/issues"
+  },
+  "homepage": "https://github.com/manosteele91827/Nodejs-Link-Shortener#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-validator": "^4.3.0",
+    "node-persist": "^2.1.0"
+  }
+}
